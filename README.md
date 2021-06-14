@@ -52,3 +52,15 @@ Total number of testing samples are 249 points (built-up: 55, farm & barren: 52,
 
 ![image](https://user-images.githubusercontent.com/68691092/121844128-732d6580-cd1e-11eb-827c-e263d39c7eb2.png)
 
+# Results
+## Random Forest
+Random Forest also known as Random Decision Forest is an ensemble learning method that operates by constructing a several decision tress to generate the final mode of the classes.
+This study train the classifier for both 2013 and 2020 satellite images to generate the landcover map.
+Overall Accuracy/Kapp Statistics for each year of satellite image classification shows (2013) 0.887 / 0.848 and (2020) 0.876 / 0.833.
+* [y2013 - (n_estimator=100, max_depth=12, min_sample_leaf=3, min_sample_split=2)], [y2020 – (n_estimators=100, max_depth=10, min_samples_leaf=3, min_samples_split=2)]
+
+![image](https://user-images.githubusercontent.com/68691092/121844323-c7384a00-cd1e-11eb-8c1b-a4e4e63ed855.png)
+
+One advantage of using RF is the insight into variable importance. In this case, the values in the 4th band contributed larger than any other bands for the model to detect classes.
+
+![image](https://user-images.githubusercontent.com/68691092/121844348-d3240c00-cd1e-11eb-9ce3-bcf8f85668f0.png)
