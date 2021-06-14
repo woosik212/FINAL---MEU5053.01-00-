@@ -57,7 +57,8 @@ Total number of testing samples are 249 points (built-up: 55, farm & barren: 52,
 Random Forest also known as Random Decision Forest is an ensemble learning method that operates by constructing a several decision tress to generate the final mode of the classes.
 This study train the classifier for both 2013 and 2020 satellite images to generate the landcover map.
 Overall Accuracy/Kapp Statistics for each year of satellite image classification shows (2013) 0.887 / 0.848 and (2020) 0.876 / 0.833.
-* [y2013 - (n_estimator=100, max_depth=12, min_sample_leaf=3, min_sample_split=2)], [y2020 – (n_estimators=100, max_depth=10, min_samples_leaf=3, min_samples_split=2)]
+* [ y2013 - (n_estimator=100, max_depth=12, min_sample_leaf=3, min_sample_split=2)]
+* [ y2020 – (n_estimators=100, max_depth=10, min_samples_leaf=3, min_samples_split=2)]
 
 ![image](https://user-images.githubusercontent.com/68691092/121844323-c7384a00-cd1e-11eb-8c1b-a4e4e63ed855.png)
 
@@ -71,7 +72,7 @@ Overall Accuracy/Kapp Statistics for each year of satellite image classification
  Function - “linear” - (2013) 0.871 / 0.826 and (2020) 0.815 / 0.751.
  Function - “rbf” - (2013) 0.896 / 0.859 and (2020) 0.855 / 0.805.
  Function - “poly” - (2013) 0.884 / 0.843 and (2020) 0.883 / 0.843.
- * [SVC y2013 - (C=1000, gamma=‘scale’, kernel =‘linear’)], y2020 (C=10, gamma=‘scale’, kernel=‘linear’)]
+ * [ SVC y2013 - (C=1000, gamma=‘scale’, kernel =‘linear’)], y2020 (C=10, gamma=‘scale’, kernel=‘linear’)]
  * [ SVC (C=10, gamma=‘scale’, kernel =‘rbf’)]
  * [ SVC (C=1000, gamma=‘scale’, kernel =‘ploy’)]
 
