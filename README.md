@@ -17,3 +17,5 @@ There are two Landsat Images which are,
 and we are going to use thess two raster files to calssifying the Land cover of Seoul and outskirts of Seoul
 * The size of file is pretty big
 * Be sure to assign the right path where you download two satellite image raster files (.tif).
+
+# Download Zip file to get the Train and Test data for the further analysis (Github zip code download)
