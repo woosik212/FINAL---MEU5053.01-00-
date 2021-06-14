@@ -20,6 +20,7 @@ Cloud cover: Less than 1%
 Land cover of Korea (Environmental Geographical Information Service, 환경공간정보서비스, resolution of 30m)
 QGIS (GIS program for assigning and generating the training & testing sample), GRASS, GDAL
 Machine learning algorithms on scikit-learn
+
 ![image](https://user-images.githubusercontent.com/68691092/121843928-1f228100-cd1e-11eb-939c-f9aa7d4ac5d6.png)
 
 
