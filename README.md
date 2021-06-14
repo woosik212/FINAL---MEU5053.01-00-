@@ -36,3 +36,10 @@ and we are going to use thess two raster files to calssifying the Land cover of 
 * Be sure to assign the right path where you download two satellite image raster files (.tif).
 
 ## Get Train and Test Dataset (Github, Code -> Zip download).
+
+# Methods
+## Workflow Methodologies
+In this study, the Random Forest, SVM(Support Vector Machine) methods were implemented to classify 4 classes of land cover (built-up, farm & barren, vegetation, and water) from 30m. resolution of Landsat 8 satellite image.
+The existing landcover classification provided by NGIS was reclassified into 4 classes, and training and testing samples were randomly generated.
+Among the machine learning techniques, the Random Forest and SVM (functions of linear, RBF, poly) algorithms were applied to train and test four classes of land covers from satellite images in year of 2013 and 2020.
+![image](https://user-images.githubusercontent.com/68691092/121844055-4e38f280-cd1e-11eb-9381-03769ffff8a4.png)
