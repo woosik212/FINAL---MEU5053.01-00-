@@ -112,3 +112,12 @@ This study compares the accuracy of the model through RF and SVM classifier’s 
 Overall accuracies of RF and SVM show similar to previous studies, in which the accuracy of models using “poly” function in SVM is the most stable over year of 2013 and 2020.
 Comparison of changes in the Built-up area in 2013 and 2020 shows that changes in the Farm & Barren and Water region have changed more in the SVM model than in RF.
 These results in classifying land cover based on RGB/Spectral Bands values based on satellite imagery, the problem occurred due to the noise from different soil and tree canopy.
+
+# Reference
+* Adbi, (2020). Land cover and land use classification performance of machine learning algorithms in a boreal landscape using Sentinel-2 data. GIScinece & Remote Sensing, 57:1, 1-20
+* Goodin et al., (2015). Mapping land cover and land use from Objected-based Classification: An example from a complex agricultural landscape. International Journal of Remote Sensing, 36 (18): 4702-4723
+* Waske et al., (2010). Sensitivity of Support Vector Machines to Random Feature Selection in Classification Hyperspectral Data. IEEE Transactions on Geoscience and Remote Sensing, 48 (7): 2880-889
+* Ma et al., (2017). Evaluation of Feature Selection Methods For Objected-based Land cover mapping of Unmanned Aerial Vehicle Imagery using random forest and support vector machine classifiers. International Journal of Geo-information, 6 (2): 51
+* Georganos et al., (2018). Less is more: optimizing classification performance through feature selection in a very-high-resolution sensing object-based urban application, GISscience & Remote Sensing, 55:2, 221-242
+
+# Thank You
