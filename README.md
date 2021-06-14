@@ -10,7 +10,7 @@ Rapid urbanization across many regions in the world is altering the existing lan
 Data related to land covers are built manually based on fact-findings surveys and manmade map, so the period of data production is long.
 This study aims to classify the land cover using machine learning algorithms and estimate the change of LULC in one of the fastest-growing megacities and the capital of Korea, named as Seoul
 
-# Study Area
+## Study Area
 ![image](https://user-images.githubusercontent.com/68691092/121843798-e682a780-cd1d-11eb-8325-ac20133055a5.png)
 
 # Data and Tools for Analysis
