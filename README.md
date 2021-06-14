@@ -69,9 +69,13 @@ Overall Accuracy/Kapp Statistics for each year of satellite image classification
  Function - “linear” - (2013) 0.871 / 0.826 and (2020) 0.815 / 0.751.
  Function - “rbf” - (2013) 0.896 / 0.859 and (2020) 0.855 / 0.805.
  Function - “poly” - (2013) 0.884 / 0.843 and (2020) 0.883 / 0.843.
+ 
+ ### Tuning the hyper-parameters of an estimator
  * [y2013: SVC(C=1000, gamma=‘scale’, kernel =‘linear’)] / [y2020: SVC(C=10, gamma=‘scale’, kernel=‘linear’)]
  * [SVC(C=10, gamma=‘scale’, kernel =‘rbf’)]
  * [SVC(C=1000, gamma=‘scale’, kernel =‘ploy’)]
+
+Grid search was used as an approach to hpyer-parameter tuning which would methodically build and evaluate a model for each combination of algorithm parameters specified in grid. For selecting the best hyper-parameter GridsearchCV from Scikit Learn was used. In python script, the code was buit based on a dictionary called param_grid and fill out some parameters of kernels, C and gamma. Then, built a GridSearchCV object and fit it to the training data. To get the optimal parameters, "grid.best_estimator_" was used, and the result was used to get the overall accuracy of each model "linear", "rbf", and "poly".
 
 ![image](https://user-images.githubusercontent.com/68691092/121844615-34e47600-cd1f-11eb-9978-391a2d7cac26.png)
 
