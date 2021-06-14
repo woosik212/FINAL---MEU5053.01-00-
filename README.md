@@ -14,12 +14,11 @@ This study aims to classify the land cover using machine learning algorithms and
 ![image](https://user-images.githubusercontent.com/68691092/121843798-e682a780-cd1d-11eb-8325-ac20133055a5.png)
 
 # Data and Tools for Analysis
-MODIS – Landsat 8 OLI/TRS (resolution of 30m), 30m pixels with (rows: 1698, columns: 1500)
-2013 Satellite Image – (2013. 09. 16) / 2020 Satellite Image – (2020. 04. 28)
-Cloud cover: Less than 1%
-Land cover of Korea (Environmental Geographical Information Service, 환경공간정보서비스, resolution of 30m)
-QGIS (GIS program for assigning and generating the training & testing sample), GRASS, GDAL
-Machine learning algorithms on scikit-learn
+* MODIS – Landsat 8 OLI/TRS (resolution of 30m), 30m pixels with (rows: 1698, columns: 1500)
+* 2013 Satellite Image – (2013. 09. 16) / 2020 Satellite Image – (2020. 04. 28) Cloud cover: Less than 1%
+* Land cover of Korea (Environmental Geographical Information Service, 환경공간정보서비스, resolution of 30m)
+* QGIS (GIS program for assigning and generating the training & testing sample), GRASS, GDAL
+* Machine learning algorithms on scikit-learn
 
 ![image](https://user-images.githubusercontent.com/68691092/121843928-1f228100-cd1e-11eb-939c-f9aa7d4ac5d6.png)
 
