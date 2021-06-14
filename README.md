@@ -64,3 +64,18 @@ Overall Accuracy/Kapp Statistics for each year of satellite image classification
 One advantage of using RF is the insight into variable importance. In this case, the values in the 4th band contributed larger than any other bands for the model to detect classes.
 
 ![image](https://user-images.githubusercontent.com/68691092/121844348-d3240c00-cd1e-11eb-9ce3-bcf8f85668f0.png)
+
+## Support Vector Machine
+This study train the classifier for both 2013 and 2020 satellite images to generate the landcover map.
+Overall Accuracy/Kapp Statistics for each year of satellite image classification shows:
+ Function - “linear” - (2013) 0.871 / 0.826 and (2020) 0.815 / 0.751.
+ Function - “rbf” - (2013) 0.896 / 0.859 and (2020) 0.855 / 0.805.
+ Function - “poly” - (2013) 0.884 / 0.843 and (2020) 0.883 / 0.843.
+ * [SVC y2013 - (C=1000, gamma=‘scale’, kernel =‘linear’)], y2020 (C=10, gamma=‘scale’, kernel=‘linear’)]
+ * [ SVC (C=10, gamma=‘scale’, kernel =‘rbf’)]
+ * [ SVC (C=1000, gamma=‘scale’, kernel =‘ploy’)]
+
+![image](https://user-images.githubusercontent.com/68691092/121844615-34e47600-cd1f-11eb-9978-391a2d7cac26.png)
+
+## Accuracy Assessment - validation
+
