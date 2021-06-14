@@ -9,4 +9,8 @@ Detecting the changes of Land cover based on machine learning algorithms using L
 # Get Satellite Imagery from the link below (Google Drive)
 https://drive.google.com/drive/folders/1G-ZM605b5_-inYq-H6kelXos10TinaSQ?usp=sharing
 
-there are two Landsat Images 1) L8_Seoul_20130916.tif (Raster file, Landsat 8 image of seoul on 16th Sep, 2013) 2) L8_Seoul_20200428.tif (Raster file, Landsat 8 image of seoul on 28th April, 2020)
+There are two Landsat Images which are,
+1) L8_Seoul_20130916.tif (Raster file, Landsat 8 image of seoul on 16th Sep, 2013)
+2) 2) L8_Seoul_20200428.tif (Raster file, Landsat 8 image of seoul on 28th April, 2020)
+
+and we are going to use thess two raster files to calssifying the Land cover of Seoul and outskirts of Seoul
