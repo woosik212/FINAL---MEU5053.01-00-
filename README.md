@@ -79,4 +79,7 @@ Overall Accuracy/Kapp Statistics for each year of satellite image classification
 ![image](https://user-images.githubusercontent.com/68691092/121844615-34e47600-cd1f-11eb-9978-391a2d7cac26.png)
 
 ## Accuracy Assessment - validation
+RF shows the highest classification accuracy for satellite imagery in 2013, and SVM (“poly”) shows the highest classification accuracy for satellite imager in 2020.
+Although classification for the 2020 image performed less, most likely, due to the noise from different soil and urban tree canopy.
 
+![image](https://user-images.githubusercontent.com/68691092/121844923-a9b7b000-cd1f-11eb-91b0-c74ad8715dbf.png)
