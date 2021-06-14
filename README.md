@@ -19,3 +19,9 @@ and we are going to use thess two raster files to calssifying the Land cover of 
 * Be sure to assign the right path where you download two satellite image raster files (.tif).
 
 # Get Train and Test Dataset (Github, Code -> Zip download).
+
+# Research Motivation and Background
+Rapid urbanization across many regions in the world is altering the existing land use/land cover (LULC), which is significantly affecting the environment in cities; such as land surface temperature, air pollution, ecological environment, etc.
+Data related to land covers are built manually based on fact-findings surveys and manmade map, so the period of data production is long.
+This study aims to classify the land cover using machine learning algorithms and estimate the change of LULC in one of the fastest-growing megacities and the capital of Korea, named as Seoul
+![image](https://user-images.githubusercontent.com/68691092/121843750-cfdc5080-cd1d-11eb-9fb8-d1faeedb377f.png)
