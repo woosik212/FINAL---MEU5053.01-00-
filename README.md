@@ -83,3 +83,32 @@ RF shows the highest classification accuracy for satellite imagery in 2013, and 
 Although classification for the 2020 image performed less, most likely, due to the noise from different soil and urban tree canopy.
 
 ![image](https://user-images.githubusercontent.com/68691092/121844923-a9b7b000-cd1f-11eb-91b0-c74ad8715dbf.png)
+
+## Land cover change detection
+Detecting the landcover changes in 7 years in between the raw images for 2013 and 2020 which are classified into 4 major classes.
+Algorithm explanation: Conducting a pixel-to-pixel comparison, for those pixels that went through no change a value of 0 will be assigned, and for those pixels that went through changed to Built-up area will be re-coded as 1. Similarly, pixels in each class group will be assigned a newer value if change is detected. 
+
+Accordingly, in the years between 2013 and 2020, the metropolitan area went through a significant change in built-up surface area.
+The significant change to Vegetation cover, Farm & Barren, and Water most likely is the result of mis-classified pixels, particularly on the 2013 image.
+The figures on the right shows the newly created Built-up surface in 2020 based on RF and SVM(“poly”).
+
+![image](https://user-images.githubusercontent.com/68691092/121845420-5e51d180-cd20-11eb-895d-ec5a34b058f3.png)
+
+# Discussion
+## Random Forest and Support Vector Machine classifiers 
+
+A landcover classification study using Landsat-8 and involving six land-cover classes found that SVM was able to achieve a relatively high overall accuracy of 88% (Goodin et al., 2015)
+The results of this study agrees with previous research which concluded that the selection of an appropriate features with the SVM classifier for mapping landcover (Waske et al. ,2010). Also, Ma, Fu et al. (2017) alleged that appropriate feature selection could significantly increase accuracy, especially for smaller sample sizes for the SVM and RF classifiers.
+The result of this study show similar accuracy to those of prior studies and show that land cover classification using SVM and RF algorithms can be somewhat accurate.
+
+## Limitation of this study
+All 4 Land Cover classes didn’t have the same number of training and evaluation samples so that the Overall Accuracy could be biased towards classes with more training samples such as Built-up and Vegetation (He and Garcia, 2018).
+The ability of SVM to capture Farm & Barren(open land and clear cuts) class where the data were linearly non-separable, the feature vectors were projected with a nonlinear vector mapping function to a higher dimension feature space (Abdi, 2020). The result of this study also shows that linear function of SVM could not map the Farm & Barren class.
+Limitations of data acquisition in satellite data: seasonal band spectral differences such as vegetation and farmland because different months are compared in this study.
+
+# Conclusion
+## Classifier comparison
+This study compares the accuracy of the model through RF and SVM classifier’s algorithms, separating the 2013 and 2020 Landsat 8 – OLI/TIRS images into differ land cover classes.
+Overall accuracies of RF and SVM show similar to previous studies, in which the accuracy of models using “poly” function in SVM is the most stable over year of 2013 and 2020.
+Comparison of changes in the Built-up area in 2013 and 2020 shows that changes in the Farm & Barren and Water region have changed more in the SVM model than in RF.
+These results in classifying land cover based on RGB/Spectral Bands values based on satellite imagery, the problem occurred due to the noise from different soil and tree canopy.
