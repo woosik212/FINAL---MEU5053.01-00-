@@ -6,9 +6,7 @@ Final Project - Machine Learning and Programming (MEU5053.01-00)
 Detecting the changes of Land cover based on machine learning algorithms using Landsat Satellite Images
 
 # Research Motivation and Background
-Rapid urbanization across many regions in the world is altering the existing land use/land cover (LULC), which is significantly affecting the environment in cities; such as land surface temperature, air pollution, ecological environment, etc.
-Data related to land covers are built manually based on fact-findings surveys and manmade map, so the period of data production is long.
-This study aims to classify the land cover using machine learning algorithms and estimate the change of LULC in one of the fastest-growing megacities and the capital of Korea, named as Seoul
+Rapid urbanization across many regions in the world is altering the existing land use/land cover (LULC), which is significantly affecting the environment in cities; such as land surface temperature, air pollution, ecological environment, etc. Data related to land covers are built manually based on fact-findings surveys and manmade map, so the period of data production is long. This study aims to classify the land cover using machine learning algorithms and estimate the change of LULC in one of the fastest-growing megacities and the capital of Korea, named as Seoul.
 
 ## Study Area
 ![image](https://user-images.githubusercontent.com/68691092/121843798-e682a780-cd1d-11eb-8325-ac20133055a5.png)
@@ -96,20 +94,14 @@ The figures on the right shows the newly created Built-up surface in 2020 based 
 # Discussion
 ## Random Forest and Support Vector Machine classifiers 
 
-A landcover classification study using Landsat-8 and involving six land-cover classes found that SVM was able to achieve a relatively high overall accuracy of 88% (Goodin et al., 2015)
-The results of this study agrees with previous research which concluded that the selection of an appropriate features with the SVM classifier for mapping landcover (Waske et al. ,2010). Also, Ma, Fu et al. (2017) alleged that appropriate feature selection could significantly increase accuracy, especially for smaller sample sizes for the SVM and RF classifiers.
-The result of this study show similar accuracy to those of prior studies and show that land cover classification using SVM and RF algorithms can be somewhat accurate.
+A landcover classification study using Landsat-8 and involving six land-cover classes found that SVM was able to achieve a relatively high overall accuracy of 88% (Goodin et al., 2015). The results of this study agrees with previous research which concluded that the selection of an appropriate features with the SVM classifier for mapping landcover (Waske et al. ,2010). Also, Ma, Fu et al. (2017) alleged that appropriate feature selection could significantly increase accuracy, especially for smaller sample sizes for the SVM and RF classifiers. The result of this study show similar accuracy to those of prior studies and show that land cover classification using SVM and RF algorithms can be somewhat accurate.
 
 ## Limitation of this study
-All 4 Land Cover classes didn’t have the same number of training and evaluation samples so that the Overall Accuracy could be biased towards classes with more training samples such as Built-up and Vegetation (He and Garcia, 2018).
-The ability of SVM to capture Farm & Barren(open land and clear cuts) class where the data were linearly non-separable, the feature vectors were projected with a nonlinear vector mapping function to a higher dimension feature space (Abdi, 2020). The result of this study also shows that linear function of SVM could not map the Farm & Barren class.
-Limitations of data acquisition in satellite data: seasonal band spectral differences such as vegetation and farmland because different months are compared in this study.
+All 4 Land Cover classes didn’t have the same number of training and evaluation samples so that the Overall Accuracy could be biased towards classes with more training samples such as Built-up and Vegetation (He and Garcia, 2018). The ability of SVM to capture Farm & Barren(open land and clear cuts) class where the data were linearly non-separable, the feature vectors were projected with a nonlinear vector mapping function to a higher dimension feature space (Abdi, 2020). The result of this study also shows that linear function of SVM could not map the Farm & Barren class. Limitations of data acquisition in satellite data: seasonal band spectral differences such as vegetation and farmland because different months are compared in this study.
 
 # Conclusion
 ## Classifier comparison
-This study compares the accuracy of the model through RF and SVM classifier’s algorithms, separating the 2013 and 2020 Landsat 8 – OLI/TIRS images into differ land cover classes.
-Overall accuracies of RF and SVM show similar to previous studies, in which the accuracy of models using “poly” function in SVM is the most stable over year of 2013 and 2020.
-Comparison of changes in the Built-up area in 2013 and 2020 shows that changes in the Farm & Barren and Water region have changed more in the SVM model than in RF.
+This study compares the accuracy of the model through RF and SVM classifier’s algorithms, separating the 2013 and 2020 Landsat 8 – OLI/TIRS images into differ land cover classes. Overall accuracies of RF and SVM show similar to previous studies, in which the accuracy of models using “poly” function in SVM is the most stable over year of 2013 and 2020. Comparison of changes in the Built-up area in 2013 and 2020 shows that changes in the Farm & Barren and Water region have changed more in the SVM model than in RF.
 These results in classifying land cover based on RGB/Spectral Bands values based on satellite imagery, the problem occurred due to the noise from different soil and tree canopy.
 
 # Reference
