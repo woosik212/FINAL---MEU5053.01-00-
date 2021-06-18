@@ -120,5 +120,6 @@ These results in classifying land cover based on RGB/Spectral Bands values based
 * Waske et al., (2010). Sensitivity of Support Vector Machines to Random Feature Selection in Classification Hyperspectral Data. IEEE Transactions on Geoscience and Remote Sensing, 48 (7): 2880-889
 * Ma et al., (2017). Evaluation of Feature Selection Methods For Objected-based Land cover mapping of Unmanned Aerial Vehicle Imagery using random forest and support vector machine classifiers. International Journal of Geo-information, 6 (2): 51
 * Georganos et al., (2018). Less is more: optimizing classification performance through feature selection in a very-high-resolution sensing object-based urban application, GISscience & Remote Sensing, 55:2, 221-242
+* https://mljar.com/blog/random-forest-overfitting/
 
 # Thank You
